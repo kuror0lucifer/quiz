@@ -31,10 +31,12 @@ export const questions = [
 
 export default function Field() {
   let [count, setCount] = useState(0);
+  const percentage = Math.round((count / questions.length) * 100);
+
   return (
     <div className="wrapper">
       <div className="progress">
-        <div className="progress-bar"></div>
+        <div className="progress-bar" style={{ width: `${percentage}%` }}></div>
       </div>
       <div className="question">{questions[count].title}</div>
       <ul className="list">

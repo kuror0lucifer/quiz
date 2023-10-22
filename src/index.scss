@@ -24,9 +24,75 @@ main {
 .wrapper {
   width: 40%;
   height: 40vh;
-  background: #f8f8e1;
+  background: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  .question {
+    width: 80%;
+    height: 40px;
+
+    line-height: 40px;
+
+    text-align: start;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    // border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .list {
+    list-style-type: none;
+    margin-top: 40px;
+  }
+
+  .list-item {
+    width: 77%;
+    height: 40px;
+    line-height: 40px;
+    text-align: start;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    background-color: #fff;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    border: 1px solid rgb(190, 186, 186);
+
+    cursor: pointer;
+  }
+
+  .progress {
+    width: 80%;
+    height: 15px;
+
+    margin: 0 auto;
+    margin-top: 20px;
+
+    border-radius: 20px;
+    background: rgb(187, 182, 182);
+  }
+
+  .progress-bar {
+    width: 33%;
+    height: 15px;
+
+    background: rgb(34, 193, 195);
+    background: linear-gradient(
+      0deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 187, 45, 1) 100%
+    );
+    border-radius: 20px;
+
+    z-index: 1000;
+  }
 }

@@ -25,7 +25,7 @@ main {
 
 .wrapper {
   width: 40%;
-  height: 40vh;
+  min-height: 10vh;
   background: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
@@ -99,5 +99,11 @@ main {
     border-radius: 20px;
 
     z-index: 1000;
+  }
+
+  .result {
+    text-align: center;
+    line-height: 95.5px;
+    color: red;
   }
 }
